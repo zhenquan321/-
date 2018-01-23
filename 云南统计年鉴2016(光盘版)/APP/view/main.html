@@ -1,0 +1,190 @@
+<div id="OMD_1_main" class="row">
+    <div class="left_part" >
+        <div class="logo_s pl20">
+            <a class="navbar-brand" style="padding:0; padding: 0; margin-top: 15px;height: 30px;color: #7b7b7b; font-weight: 600;" >云南统计年鉴2016</a>
+            <a href=""style="float: right; padding-right: 20px; font-size: 32px; color: #8fb300;"><i class="fa  fa-arrow-circle-o-leftfa-navicon"style="font-size:24px;"></i></a>
+        </div>
+        <div class="sidebar">
+            <div class="overview" ui-sref="main.Cover" ui-sref-active="overview_active" >
+                <a>封面简介</a>
+            </div>
+            <dl>
+                <dt>章节目录</dt>
+                <dd>
+                    <ul>
+                        <li ui-sref="main.chapter1" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa fa-arrow-circle-o-left" ng-click="showList(1)" ng-show="ListNum!=1"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)" ng-show="ListNum==1"></i></div><div class="wenzi">一、省情概况</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==1">
+                                <li ng-click="$root.paperList(1.1)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.1]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ng-click="$root.paperList(1.2)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.2]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.1  全省行政区划及代码</div></a></div></li>
+                                <li ng-click="$root.paperList(1.3)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.3]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.2  1-2   续表1</div></a></div></li>
+                                <li ng-click="$root.paperList(1.4)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.4]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.3  1-2   续表2</div></a></div></li>
+                                <li ng-click="$root.paperList(1.5)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.5]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.4  1-2  续表3</div></a></div></li>
+                                <li ng-click="$root.paperList(1.6)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.6]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.5  1-2  续表4 </div></a></div></li>
+                                <li ng-click="$root.paperList(1.7)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.7]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-2.6  1-2  续表5</div></a></div></li>
+                                <li ng-click="$root.paperList(1.8)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.8]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-3  主要年份云南国民经济指标数据</div></a></div></li>
+                                <li ng-click="$root.paperList(1.9)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.9]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-3-sb  1-3 续表</div></a></div></li>
+                                <li ng-click="$root.paperList(1.16)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.16]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-4  主要年份云南国民经济主要指标总量和增长速度</div></a></div></li>
+                                <li ng-click="$root.paperList(1.11)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.11]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-5  按经济类型划分的云南国民经济主要指标数据</div></a></div></li>
+                                <li ng-click="$root.paperList(1.12)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.12]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-6  云南省国民经济主要数据占全国的比重</div></a></div></li>
+                                <li ng-click="$root.paperList(1.13)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.13]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-7  全省按国民经济行业分的法人单位数</div></a></div></li>
+                                <li ng-click="$root.paperList(1.14)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.14]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-8  各州市法人单位数</div></a></div></li>
+                                <li ng-click="$root.paperList(1.15)" ng-class="{true:'li_active2',false:''}[$root.paperNum==1.15]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-9  各州市基本单位数</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter2" ui-sref-active="li_active" ng-click="$root.paperList(2.0)"  ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(2)" ng-show="ListNum!=2"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==2"></i></div><div class="wenzi">二、国民经济核算</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==2">
+                                <li ng-click="$root.paperList(2.35)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.35]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">主要指标解释</div></a></div></li>
+                                <li ng-click="$root.paperList(2.1)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.1]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-1  云南生产总值(1978-2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.3)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.3]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-2  云南生产总值指数(一)（1978-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(2.4)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.4]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-3  云南生产总值指数(二)（1978-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(2.2)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.2]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-4  各州市生产总值(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.5)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.5]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-5  支出法云南省生产总值(1978-2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.6)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.6]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-6  支出法云南省生产总值构成（1978-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(2.7)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.7]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-7  支出法各州市生产总值(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.8)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.8]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-8  各州市资本形成总额及构成(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.9)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.9]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-9  各州市最终消费及构成(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.11)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.11]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-10  各州市生产总值构成(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(2.12)" ng-class="{true:'li_active2',false:''}[$root.paperNum==2.12]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">2-11  非公有制经济增加值(2005-2015年)</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter3" ui-sref-active="li_active" ng-click="$root.paperList(3.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(3)" ng-show="ListNum!=3"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)" ng-show="ListNum==3"></i></div><div class="wenzi">三、固定资产投资</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==3">
+                                <li ng-click="$root.paperList(3.35)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.35]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">主要指标解释</div></a></div></li>
+                                <li ng-click="$root.paperList(3.1)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.1]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-1  全社会固定资产投资总额（1978-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(3.2)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.2]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-2  按经济类型分固定资产投资构成(1978-2015年)  </div></a></div></li>
+                                <li ng-click="$root.paperList(3.3)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.3]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-3  固定资产投资(不含农户)情况(一)（2015年）  </div></a></div></li>
+                                <li ng-click="$root.paperList(3.4)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.4]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-4  固定资产投资(不含农户)情况(二)（2015年） </div></a></div></li>
+                                <li ng-click="$root.paperList(3.5)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.5]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-5  续表   continued</div></a></div></li>
+                                <li ng-click="$root.paperList(3.6)" ng-class="{true:'li_active2',false:''}[$root.paperNum==3.6]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">3-6  新增生产能力(2015年)  </div></a></div></li>
+                               
+                            </ul>
+                        <li ui-sref="main.chapter4" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(4)" ng-show="ListNum!=4"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==4"></i></div><div class="wenzi">四、城乡市场消费</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==4">
+                                <li ng-click="$root.paperList(4.35)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.35]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">主要指标解释</div></a></div></li>
+                                <li ng-click="$root.paperList(4.1)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.1]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-1  全省流通业基本情况（2010-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(4.2)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.2]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-2  社会消费品零售总额（1978-2015年）</div></a></div></li>
+                                <li ng-click="$root.paperList(4.3)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.3]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-3  各州市社会消费品零售总额(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(4.4)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.4]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-4  限额以上批发和零售业商品销售情况(2014-2015年)		</div></a></div></li>
+                                <li ng-click="$root.paperList(4.5)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.5]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-4   续表   continued</div></a></div></li>
+                                <li ng-click="$root.paperList(4.6)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.6]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-5  限额以上批发和零售业法人企业商品购进、销售、库存总额(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(4.7)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.7]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-5   续表1</div></a></div></li>
+                                <li ng-click="$root.paperList(4.8)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.8]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-5   续表2</div></a></div></li>
+                                <li ng-click="$root.paperList(4.9)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.9]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-6  限额以上批发和零售业法人企业财务状况(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(4.11)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.11]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-6   续表1</div></a></div></li>
+                                <li ng-click="$root.paperList(4.12)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.12]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-6   续表2</div></a></div></li>
+                                <li ng-click="$root.paperList(4.13)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.13]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-7  限额以上住宿和餐饮业法人企业经营情况(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(4.14)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.14]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi"></div></a></div></li>
+                                <li ng-click="$root.paperList(4.15)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.15]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi"></div></a></div></li>
+                                <li ng-click="$root.paperList(4.16)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.16]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">4-8  限额以上住宿和餐饮业企业法人财务状况(2015年)</div></a></div></li>
+                                <li ng-click="$root.paperList(4.17)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.17]"><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi"></div></a></div></li>
+                                <li ng-click="$root.paperList(4.18)" ng-class="{true:'li_active2',false:''}[$root.paperNum==4.18]"><div><a class="set" href="../2016年鉴/4/4-8-2newok.html" target="_blank"><div class="ioic"><i class="fa "></i></div><div class="wenzi"></div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter5" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(5)" ng-show="ListNum!=5"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==5"></i></div><div class="wenzi">五、公共财产</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==5">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter6" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(6)" ng-show="ListNum!=6"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==6"></i></div><div class="wenzi">六、对外经济贸易</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==6">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter7" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(7)" ng-show="ListNum!=7"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==7"></i></div><div class="wenzi">七、农业和农村</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==7">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter8" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(8)" ng-show="ListNum!=8"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==8"></i></div><div class="wenzi">八、工业和能源</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==8">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter9" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(9)" ng-show="ListNum!=9"></i><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==9"></i></div><div class="wenzi">九、建筑业和房地产业</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==9">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter10" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(10)" ng-show="ListNum!=10"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==10"></i><div class="wenzi"title="交通运输、通信和服务业">十、交通运输、通信...</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==10">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter11" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(11)" ng-show="ListNum!=11"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==11"></i><div class="wenzi">十一、旅游业</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==11">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter12" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(12)" ng-show="ListNum!=12"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==12"></i><div class="wenzi">十二、金融和保险业</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==12">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter13" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(13)" ng-show="ListNum!=13"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==13"></i><div class="wenzi">十三、教育、科技和文化</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==13">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter14" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(14)" ng-show="ListNum!=14"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==14"></i><div class="wenzi"title="卫生、体育和社会管理">十四、卫生、体育和社...</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==14">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter15" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(15)" ng-show="ListNum!=15"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==15"></i><div class="wenzi">十五、人口与就业</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==15">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter16" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(16)" ng-show="ListNum!=16"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==16"></i><div class="wenzi">十六、资源与环境</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==16">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter17" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(17)" ng-show="ListNum!=17"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==17"></i><div class="wenzi"title="民族自治地方经济概况">十七、民族自治地方经...</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==17">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                        <li ui-sref="main.chapter18" ui-sref-active="li_active" ng-click="$root.paperList(0.0)" ><div><a class="set"><div class="ioic"><i class="fa  fa-arrow-circle-o-left" ng-click="showList(18)" ng-show="ListNum!=18"></i></div><i class="fa fa-arrow-circle-o-down"ng-click="showList(0)"ng-show="ListNum==18"></i><div class="wenzi">十八、县区经济概况</div></a></div></li>
+                            <ul class="erjiml" ng-show="ListNum==18">
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                                <li ><div><a class="set"><div class="ioic"><i class="fa "></i></div><div class="wenzi">1-1  人口和资源</div></a></div></li>
+                            </ul>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="right_part">
+        <div class="main_body">
+            <div ng-include="'view/common/header.html?v=20170104'" style="z-index:1000"></div>
+        </div>
+    </div>
+</div>
+<div ui-view style="margin-top: 70px; margin-left:230px;margin-bottom:20px;padding:0 35px;"></div>
+    
